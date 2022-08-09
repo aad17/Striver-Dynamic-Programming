@@ -40,7 +40,7 @@ class Solution:
                 dp[0][i] = n * price[0]
 
             for idx in range(1, n):
-                for n in range(1, len(price)+1):
+                for n in range(1, len(price)):
                     not_take = 0 + dp[idx-1][n]
                     take = float('-inf')
                     rod_length = idx + 1
