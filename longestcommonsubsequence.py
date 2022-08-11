@@ -1,6 +1,3 @@
-from logging.handlers import SocketHandler
-
-
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         # def recurse(idx1, idx2):
